@@ -1,4 +1,4 @@
-import django_heroku
+
 """
 Django settings for biblioteka project.
 
@@ -13,6 +13,7 @@ https://docs.djangoproject.com/en/3.0/ref/settings/
 
 import os
 
+
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
@@ -26,7 +27,7 @@ SECRET_KEY = '69fx!^l87063=w(l*pdaqvqp=7l!vpld4764%^!p_c2u%i#ge)'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['https://michalb-library.herokuapp.com']
 
 
 # Application definition
@@ -126,6 +127,6 @@ STATICFILES_STORAGE = [
 "/Users/michalbozyk/biblioteka/books/static/css/style.css"
 ]
 
-django_heroku.settings(locals())
+
 
 
