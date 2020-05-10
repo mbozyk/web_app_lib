@@ -1,4 +1,4 @@
-import django_heroku
+import django-heroku
 """
 Django settings for biblioteka project.
 
