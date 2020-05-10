@@ -1,0 +1,73 @@
+.important {
+    color: red;
+    font-family: fantasy
+}
+.color {
+color: red;
+
+}
+.photo {
+color: red;
+
+font-family: fantasy
+}
+.author {
+color: red;
+font-family: fantasy
+}
+.button
+{
+color: black;
+
+}
+.page{
+color: red;
+
+font-family: fantasy
+}
+.cover{
+color: red;
+
+font-family: fantasy
+}
+.send{
+color: black;
+
+
+}
+.date{
+color: red;
+font-family: fantasy
+}
+.reset{
+color: black;
+
+}
+.add{
+color: red;
+font-family: fantasy;
+
+}
+body {
+
+background-color: powderblue;
+}
+
+.lib{
+color: red;
+font-family: fantasy;
+font-size: 200%;
+
+}
+
+input[type=text] {
+  width: 50%;
+  padding: 6px 10px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
+
+
+
+
